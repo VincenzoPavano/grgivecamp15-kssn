@@ -1,0 +1,10 @@
+#search-icon {
+    margin-top: 13px;
+}
+
+@media (min-width:0px) and (max-width: 768px){
+    /* Hides the search icon when mobile width */
+    #search-icon {
+        display: none;
+    }
+}
