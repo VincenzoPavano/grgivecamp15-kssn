@@ -360,20 +360,40 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <label for="exampleInputEmail1">Email address</label>
-                                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                                    <label for="firstName">First Name</label>
+                                    <input type="email" class="form-control" id="firstName" placeholder="First Name" required="required">
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <label for="exampleInputPassword1">Password</label>
-                                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                    <label for="lastName">Last name</label>
+                                    <input type="text" class="form-control" id="lastName" placeholder="Last Name" required="required">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Email Address</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email Address" required="required">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="reason">I would like to...</label>
+                                    <select name="reason" id="reason" class="form-control" required="required">
+                                        <option value="">Please select a reason...</option>
+                                        <option value="">Volunteer</option>
+                                        <option value="">Get assistance from my community school coordinator</option>
+                                        <option value="">Learn more about partnering with KSSN</option>
+                                        <option value="">Other</option>
+                                    </select>
                                 </div>
                             </div>
                         </div>
                         <div class="form-group">
-                            <label for="exampleInputEmail1">Message</label>
-                            <textarea class="form-control" rows="3"></textarea>
+                            <label for="message">Message</label>
+                            <textarea id="message" class="form-control" rows="3" required="required"></textarea>
                         </div>
 
                         <button type="submit" class="btn tf-btn btn-default">Submit</button>
