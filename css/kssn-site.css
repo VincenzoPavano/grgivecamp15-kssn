@@ -2,8 +2,9 @@
     margin-top: 13px;
 }
 
-#school-nav li {
+#school-nav li, #page-nav li {
     list-style-type: none;
+    font-weight: bold;
 }
 
 .school-container {
