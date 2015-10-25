@@ -102,16 +102,35 @@
 
 <nav id="footer">
     <div class="container">
-        <div class="pull-left fnav">
-            <p>ALL RIGHTS RESERVED. COPYRIGHT © 2015. </p>
+        <div class="col-xs-12 col-md-4 text-left fnav">
+            <p>
+                Kent School Service Network<br />
+                1633 East Beltline NE<br />
+                Suite 205<br />
+                Grand Rapids, MI 49525<br />
+                info@kentssn.org
+            </p>
         </div>
-        <div class="pull-right fnav">
+        <div class="col-xs-12 col-md-4 text-center fnav">
+            <p>&copy; Kent School Service Network. All Rights Reserved.</p>
+        </div>
+        <div class="col-xs-12 col-md-4 text-right fnav">
             <ul class="footer-social">
-                <li><a href="https://www.facebook.com/kentschoolservicesnetwork" target="_blank"><i
-                        class="fa fa-facebook"></i></a></li>
-                <li><a href="https://www.linkedin.com/company/kent-school-services-network" target="_blank"><i
-                        class="fa fa-linkedin"></i></a></li>
-                <li><a href="https://twitter.com/kent_ssn" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                <li>
+                    <a href="https://www.facebook.com/kentschoolservicesnetwork" target="_blank">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/kent_ssn" target="_blank">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/company/kent-school-services-network" target="_blank">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+                </li>
             </ul>
         </div>
     </div>
@@ -138,6 +157,7 @@
         var p = getUrlParameter('p');
         if (p) {
             $('#page').load('content/' + p + '.html');
+            $('#tf-menu').addClass('on');
         } else {
             $('#page').load('content/home.html');
         }

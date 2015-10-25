@@ -73,7 +73,6 @@ ul, ol{
 /* Navigation */
 #tf-menu {
 	padding: 20px;
-	transition: all 0.8s;
 }
 #tf-menu.navbar-default {
 	background-color: rgba(248, 248, 248, 0);

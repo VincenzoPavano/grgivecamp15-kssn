@@ -110,8 +110,7 @@
     <div class="overlay">
         <div class="container">
             <div class="section-title center">
-                <h2>KSSN is a community school initiative serving <strong>18,000 students</strong> in <strong>29
-                    schools</strong> across <strong>nine districts</strong> in Kent County</h2>
+                <h2>KSSN is a community school initiative serving <strong>18,000 students</strong> in <strong>30 schools</strong> across <strong>nine districts</strong> in Kent County</h2>
 
                 <div class="line">
                     <hr>
@@ -141,51 +140,51 @@
         <div class="space"></div>
         <div class="row">
             <div class="col-md-4 col-sm-6 service">
-                <i class="fa"></i>
+                <i class="fa fa-graduation-cap"></i>
                 <h4><strong>Cedar Springs Public Schools</strong></h4>
             </div>
 
             <div class="col-md-4 col-sm-6 service">
-                <i class="fa fa-mobile"></i>
+                <i class="fa fa-graduation-cap"></i>
                 <h4><strong>Godfrey-Lee Public Schools</strong></h4>
             </div>
 
             <div class="col-md-4 col-sm-6 service">
-                <i class="fa fa-camera"></i>
+                <i class="fa fa-graduation-cap"></i>
                 <h4><strong>Godwin Heights Public Schools</strong></h4>
             </div>
         </div>
         <div class="row">
 
             <div class="col-md-4 col-sm-6 service">
-                <i class="fa fa-bullhorn"></i>
+                <i class="fa fa-graduation-cap"></i>
                 <h4><strong>Grand Rapids Public Schools</strong></h4>
             </div>
 
             <div class="col-md-4 col-sm-6 service">
-                <i class="fa fa-desktop"></i>
+                <i class="fa fa-graduation-cap"></i>
                 <h4><strong>Kelloggsville Public Schools</strong></h4>
             </div>
 
             <div class="col-md-4 col-sm-6 service">
-                <i class="fa fa-mobile"></i>
+                <i class="fa fa-graduation-cap"></i>
                 <h4><strong>Kenowa Hills Public Schools</strong></h4>
             </div>
         </div>
         <div class="row">
 
             <div class="col-md-4 col-sm-6 service">
-                <i class="fa fa-camera"></i>
+                <i class="fa fa-graduation-cap"></i>
                 <h4><strong>Kentwood Public Schools</strong></h4>
             </div>
 
             <div class="col-md-4 col-sm-6 service">
-                <i class="fa fa-bullhorn"></i>
+                <i class="fa fa-graduation-cap"></i>
                 <h4><strong>Wyoming Public Schools</strong></h4>
             </div>
 
             <div class="col-md-4 col-sm-6 service">
-                <i class="fa fa-bullhorn"></i>
+                <i class="fa fa-graduation-cap"></i>
                 <h4><strong>Kent Intermediate School District</strong></h4>
             </div>
         </div>
@@ -360,20 +359,40 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <label for="exampleInputEmail1">Email address</label>
-                                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                                    <label for="firstName">First Name</label>
+                                    <input type="email" class="form-control" id="firstName" placeholder="First Name" required="required">
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <label for="exampleInputPassword1">Password</label>
-                                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                    <label for="lastName">Last name</label>
+                                    <input type="text" class="form-control" id="lastName" placeholder="Last Name" required="required">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Email Address</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email Address" required="required">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="reason">I would like to...</label>
+                                    <select name="reason" id="reason" class="form-control" required="required">
+                                        <option value="">Please select a reason...</option>
+                                        <option value="">Volunteer</option>
+                                        <option value="">Get assistance from my community school coordinator</option>
+                                        <option value="">Learn more about partnering with KSSN</option>
+                                        <option value="">Other</option>
+                                    </select>
                                 </div>
                             </div>
                         </div>
                         <div class="form-group">
-                            <label for="exampleInputEmail1">Message</label>
-                            <textarea class="form-control" rows="3"></textarea>
+                            <label for="message">Message</label>
+                            <textarea id="message" class="form-control" rows="3" required="required"></textarea>
                         </div>
 
                         <button type="submit" class="btn tf-btn btn-default">Submit</button>
