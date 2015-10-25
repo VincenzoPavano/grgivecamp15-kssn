@@ -35,6 +35,11 @@
     color: #ffffff;
 }
 
+.schools .service span {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
 @media (min-width:0px) and (max-width: 768px){
     /* Hides the search icon when mobile width */
     #search-icon {
