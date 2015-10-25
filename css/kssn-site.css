@@ -92,6 +92,10 @@
     height: 100%;
 }
 
+.section-title h2 strong {
+    color: #0079c2;
+}
+
 @media (min-width:0px) and (max-width: 768px){
     /* Hides the search icon when mobile width */
     #search-icon {
