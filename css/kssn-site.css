@@ -6,6 +6,10 @@
     list-style-type: none;
 }
 
+.school-container {
+    margin-bottom: 30px;
+}
+
 .page-content-container {
     margin-top: 90px;
 }
