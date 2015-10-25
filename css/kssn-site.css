@@ -2,6 +2,14 @@
     margin-top: 13px;
 }
 
+#school-nav li {
+    list-style-type: none;
+}
+
+.page-content-container {
+    margin-top: 90px;
+}
+
 @media (min-width:0px) and (max-width: 768px){
     /* Hides the search icon when mobile width */
     #search-icon {
