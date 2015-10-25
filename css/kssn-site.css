@@ -41,6 +41,33 @@
     text-transform: uppercase;
 }
 
+/* Schools Section */
+#tf-schools{
+    padding: 80px 0;
+}
+
+#tf-schools i.fa {
+    font-size: 40px;
+    border: 4px solid #0079c2;
+    width: 100px;
+    height: 100px;
+    padding: 27px 25px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+
+#tf-schools i.fa.fa-mobile{
+    font-size: 50px;
+    padding: 20px 25px;
+}
+
+#tf-schools .service:hover>i.fa{
+    background: #0079c2;
+    color: #ffffff;
+}
+
+
 .introduction {
     font-size: 16px;
     font-weight: 500;
