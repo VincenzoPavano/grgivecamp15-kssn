@@ -2,8 +2,9 @@
     margin-top: 13px;
 }
 
-#school-nav li {
+#school-nav li, #page-nav li {
     list-style-type: none;
+    font-weight: bold;
 }
 
 .school-container {
@@ -38,6 +39,12 @@
 .schools .service span {
     font-size: 18px;
     text-transform: uppercase;
+}
+
+.introduction {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 30px;
 }
 
 @media (min-width:0px) and (max-width: 768px){
